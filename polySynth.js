@@ -1,4 +1,3 @@
-
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
 function checkAmpAtk() { return document.getElementById('ampAtk').value }
